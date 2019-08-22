@@ -1,0 +1,57 @@
+/*base styles*/
+body {
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    float: left;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+#sec1 {
+    background: yellow;
+}
+
+#sec2 {
+    background: red;
+}
+
+#sec3 {
+    background: blue;
+}
+
+/*desktop view*/
+@media (min-width: 992px) {
+    section {
+        margin: 0.5%;
+        max-width: 300px;
+    }
+}
+
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        margin: 35px;
+    }
+    
+    #sec1, #sec2 {
+        width: 40%;
+    }
+
+    #sec3 {
+        width: 90%;
+    }
+}
+
+/*mobile view*/
+@media (max-width: 767px) {
+    section {
+        margin: 10px;
+    }
+
+    #sec3 {
+        
+    }
+}

@@ -12,6 +12,7 @@ section {
 
 .inner-box {
     float: right;
+    border: 1px solid black;
 }
 
 #sec1 {

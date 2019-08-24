@@ -10,6 +10,10 @@ section {
     max-height: 200px;
 }
 
+.inner-box {
+    float: right;
+}
+
 #sec1 {
     background: yellow;
 }
@@ -27,6 +31,9 @@ section {
     section {
         margin: 0.5%;
         max-width: 300px;
+        position: relative;
+        left: 15%;
+        right: 15%;
     }
 }
 

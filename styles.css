@@ -15,11 +15,12 @@ section {
     float: right;
     border: 1px solid black;
     position: relative;
-    bottom: 18px;
+    bottom: 19px;
 }
 
 p {
     padding-bottom: 10px;
+    float: left;
 }
 
 #sec1 {
